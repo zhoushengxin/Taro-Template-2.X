@@ -62,6 +62,12 @@ const config = {
       }
     }
   },
+  alias: {
+    '@/utils': path.resolve(__dirname, '..', 'src/utils'),
+    '@/components': path.resolve(__dirname, '..', 'src/components'),
+    '@/services': path.resolve(__dirname, '..', 'src/services'),
+    '@/models': path.resolve(__dirname, '..', 'src/models')
+  },
   h5: {
     publicPath: '/',
     staticDirectory: 'static',
